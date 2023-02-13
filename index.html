@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="container" class="container">
+        <nav>
+            <img class="logo" src="./images/port.jpg" alt="no img">
+            <ul>
+                <!-- redirect through page - set href of anchor tag as id  -->
+                <li><a href="#container">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skill">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- section home  -->
+        <section id="home" class="home">
+            <div class="title">
+                <h1>I'm <span>Parvathy S</span></h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sit numquam <br>
+                    perferendis assumenda laudantium quo voluptates iste soluta illum velit, voluptas.</P>
+                <!--to download a file by clicking button  -->
+                <a href="./s._parvathy.pdf" download="./s._parvathy.pdf">DOWNLOAD CV</a>
+            </div>
+            <div class="images">
+                <!-- postimages - to share images -->
+                <img src="./images/shape.png" class="shape" alt="shape">
+                <img src="./images/girl.png" class="girl" alt="girl">
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="heading">
+                <h2>About Me</h2>
+                <span>Introduction</span>
+            </div>
+            <div class="about-content">
+                <!-- about content -->
+                <div class="about-img">
+                    <img src="./images/about.jpeg" alt="no img">
+                </div>
+                <!-- about text content -->
+                <div class="about-text">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, sequi esse officiis amet cum
+                        reiciendis sed repellendus laboriosam labore praesentium quo laudantium recusandae iste voluptas
+                        voluptatum ullam, ratione nulla tenetur.</p>
+                    <div class="informations">
+                        <!-- box 1 -->
+                        <div class="info-box">
+                            <i class="fa-solid fa-user"></i>
+                            <span>max miller</span>
+                        </div>
+                        <!-- box 2 -->
+                        <div class="info-box">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>747474798</span>
+                        </div>
+                        <!-- box 3 -->
+                        <div class="info-box">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>fjf.jgj@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill">
+            <!-- heading -->
+            <div class="heading">
+                <h2>Skills</h2>
+                <span>My Skills</span>
+            </div>
+            <!-- skill container -->
+            <div class="skill-container">
+                <div class="bars">
+                    <!-- box 1 -->
+                    <div class="bar-box">
+                        <h3>HTML</h3>
+                        <span>94%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar html-bar"></div>
+                    </div>
+                    <!-- box 2 -->
+                    <div class="bar-box">
+                        <h3>CSS</h3>
+                        <span>90%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar css-bar"></div>
+                    </div>
+                    <!-- box 3 -->
+                    <div class="bar-box">
+                        <h3>JS</h3>
+                        <span>83%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar javascript-bar"></div>
+                    </div>
+                    <!-- box 4 -->
+                    <div class="bar-box">
+                        <h3>REACT</h3>
+                        <span>80%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar react-bar"></div>
+                    </div>
+                </div>
+                <!-- skill image -->
+                <div class="skill-img">
+                    <img src="./images/skill.jpeg" alt="no img">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="heading">
+                <h2>Contact</h2>
+                <span>Contact With Us</span>
+            </div>
+            <div class="iconDiv">
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="icon">
+                    <a target="_blank" href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p style="text-align: center;">&copy; My Portfolio Website 2023, All Rights Reserved &reg; Parvathy S</p>
+            <div class="upArrow">
+                <a href="#container"><i class="fa-sharp fa-solid fa-arrow-up fa-2x"></i></a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
